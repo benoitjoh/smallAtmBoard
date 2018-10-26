@@ -1,0 +1,14 @@
+# ignore the following patterns
+*.lay*
+*.b#*
+*.s#*
+*.l#*
+*.lay*
+*.pro
+*.xln
+*.lck
+*.pdf
+*.wp*
+progData.txt
+# end
+
