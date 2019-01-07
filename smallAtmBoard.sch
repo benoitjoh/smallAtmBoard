@@ -233,28 +233,10 @@ Based on the following sources:
 <wire x1="3.429" y1="2.286" x2="-3.429" y2="2.286" width="0.2032" layer="21"/>
 <wire x1="3.429" y1="2.286" x2="3.429" y2="-2.286" width="0.2032" layer="21" curve="-180"/>
 <wire x1="-3.429" y1="2.286" x2="-3.429" y2="-2.286" width="0.2032" layer="21" curve="180"/>
-<pad name="1" x="-2.54" y="0" drill="0.7" diameter="1.651" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.7" diameter="1.651" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.651" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.651" rot="R90"/>
 <text x="0" y="1.3716" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="-0.0508" y="-1.3716" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CRYSTAL2.54">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 1.8 mm, diameter 4 mm</description>
-<pad name="-" x="0.889" y="0" drill="0.7112" diameter="1.1684" shape="octagon"/>
-<pad name="+" x="-0.889" y="0" drill="0.7112" diameter="1.1684"/>
-<text x="2.159" y="0.762" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="0" y="-2.413" size="0.6096" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
-<wire x1="-0.5588" y1="2.0828" x2="-0.5588" y2="1.4224" width="0.127" layer="21"/>
-<wire x1="-0.5588" y1="1.4224" x2="-0.5588" y2="0.8128" width="0.127" layer="21"/>
-<wire x1="-0.2794" y1="2.0828" x2="0.2794" y2="2.0828" width="0.127" layer="21"/>
-<wire x1="0.2794" y1="2.0828" x2="0.2794" y2="0.8128" width="0.127" layer="21"/>
-<wire x1="0.2794" y1="0.8128" x2="-0.2794" y2="0.8128" width="0.127" layer="21"/>
-<wire x1="-0.2794" y1="0.8128" x2="-0.2794" y2="2.0828" width="0.127" layer="21"/>
-<wire x1="0.5588" y1="2.0828" x2="0.5588" y2="0.8636" width="0.127" layer="21"/>
-<wire x1="0.9144" y1="1.778" x2="-0.8636" y2="1.778" width="0.127" layer="21" curve="-300"/>
-<wire x1="0.6096" y1="1.4732" x2="0.8636" y2="1.4732" width="0.127" layer="21"/>
-<wire x1="-0.5588" y1="1.4224" x2="-0.8128" y2="1.4224" width="0.127" layer="21"/>
 </package>
 <package name="FE03-2">
 <wire x1="-3.175" y1="3.048" x2="3.429" y2="3.048" width="0.1524" layer="21"/>
@@ -1242,6 +1224,24 @@ type 0204, grid 7.5 mm</description>
 <text x="-3.891" y="2.159" size="1.27" layer="21" font="vector" ratio="10">1</text>
 <text x="-2.54" y="-4.699" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="CRYSTAL2.54">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 1.8 mm, diameter 4 mm</description>
+<pad name="-" x="0.889" y="0" drill="0.9" diameter="1.1684" shape="octagon"/>
+<pad name="+" x="-0.889" y="0" drill="0.9" diameter="1.1684"/>
+<text x="2.159" y="0.762" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-2.413" size="0.6096" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.5588" y1="2.0828" x2="-0.5588" y2="1.4224" width="0.127" layer="21"/>
+<wire x1="-0.5588" y1="1.4224" x2="-0.5588" y2="0.8128" width="0.127" layer="21"/>
+<wire x1="-0.2794" y1="2.0828" x2="0.2794" y2="2.0828" width="0.127" layer="21"/>
+<wire x1="0.2794" y1="2.0828" x2="0.2794" y2="0.8128" width="0.127" layer="21"/>
+<wire x1="0.2794" y1="0.8128" x2="-0.2794" y2="0.8128" width="0.127" layer="21"/>
+<wire x1="-0.2794" y1="0.8128" x2="-0.2794" y2="2.0828" width="0.127" layer="21"/>
+<wire x1="0.5588" y1="2.0828" x2="0.5588" y2="0.8636" width="0.127" layer="21"/>
+<wire x1="0.9144" y1="1.778" x2="-0.8636" y2="1.778" width="0.127" layer="21" curve="-300"/>
+<wire x1="0.6096" y1="1.4732" x2="0.8636" y2="1.4732" width="0.127" layer="21"/>
+<wire x1="-0.5588" y1="1.4224" x2="-0.8128" y2="1.4224" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL">
@@ -2031,7 +2031,9 @@ W = angled&lt;p&gt;
 <pad name="5" x="3.81" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="6" x="6.35" y="0" drill="0.8128" shape="long" rot="R90"/>
 <text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.858" y="1.524" size="1.27" layer="21" ratio="10">1</text>
 <text x="-7.62" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="5.842" y="1.524" size="1.27" layer="21" ratio="10">6</text>
 <rectangle x1="-6.477" y1="0.254" x2="-6.223" y2="0.762" layer="51"/>
 <rectangle x1="-6.477" y1="-0.762" x2="-6.223" y2="-0.254" layer="51"/>
 <rectangle x1="-3.937" y1="0.254" x2="-3.683" y2="0.762" layer="51"/>
