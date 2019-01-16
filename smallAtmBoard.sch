@@ -2494,10 +2494,10 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="40.64" y1="228.6" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="218.44" x2="180.34" y2="223.52" width="0.1524" layer="91"/>
 <label x="182.88" y="226.06" size="1.778" layer="95"/>
 <pinref part="+5V" gate="VCC" pin="VCC"/>
 <pinref part="IC2" gate="G$1" pin="VO"/>
+<wire x1="180.34" y1="218.44" x2="180.34" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="218.44" x2="200.66" y2="218.44" width="0.1524" layer="91"/>
 <label x="185.42" y="218.44" size="1.778" layer="95"/>
 </segment>
