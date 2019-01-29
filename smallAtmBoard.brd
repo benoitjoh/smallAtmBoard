@@ -2928,7 +2928,7 @@
 <wire x1="5.08" y1="70.612" x2="5.588" y2="71.12" width="0.1016" layer="146"/>
 <wire x1="5.588" y1="71.12" x2="4.572" y2="71.12" width="0.1016" layer="146"/>
 <wire x1="4.572" y1="71.12" x2="5.08" y2="71.628" width="0.1016" layer="146"/>
-<text x="36.7919" y="1.3589" size="1.4224" layer="28" font="vector" ratio="10" rot="MR0">+</text>
+<text x="41.9989" y="7.0739" size="1.4224" layer="28" font="vector" ratio="10" rot="MR0">+</text>
 <text x="21.082" y="42.164" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="21.209" y="32.131" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="40.386" y="23.114" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">A0</text>
@@ -2938,9 +2938,9 @@
 <text x="40.4876" y="33.7566" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">5</text>
 <text x="48.1965" y="14.5669" size="1.27" layer="28" font="vector" ratio="10" rot="MR180">SCL</text>
 <text x="51.9049" y="10.9093" size="1.27" layer="28" font="vector" ratio="10" rot="MR0">SDA</text>
-<text x="38.5953" y="7.7851" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">A0</text>
-<text x="40.9575" y="0.5969" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">D8</text>
-<text x="41.0591" y="7.6073" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">D7</text>
+<text x="38.3413" y="0.6731" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">A0</text>
+<text x="35.8775" y="7.3279" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">D8</text>
+<text x="35.7251" y="0.6223" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">D7</text>
 <text x="58.9915" y="25.5905" size="1.27" layer="28" font="vector" ratio="10" rot="MR270">RX</text>
 <text x="65.2145" y="25.7175" size="1.27" layer="28" font="vector" ratio="10" rot="MR270">TX</text>
 <text x="65.2145" y="22.2885" size="1.27" layer="28" font="vector" ratio="10" rot="MR270">R</text>
@@ -2953,7 +2953,7 @@
 <text x="41.91" y="10.4648" size="1.27" layer="27" font="vector" ratio="10" rot="R90">A5</text>
 <text x="41.8592" y="28.7528" size="1.27" layer="27" font="vector" ratio="10" rot="R90">3</text>
 <text x="41.8846" y="31.3182" size="1.27" layer="27" font="vector" ratio="10" rot="R90">4</text>
-<text x="38.4175" y="0.5715" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">D9</text>
+<text x="38.4175" y="7.3025" size="1.27" layer="28" font="vector" ratio="10" rot="MR90">D9</text>
 <text x="33.2359" y="0.8763" size="1.27" layer="27" font="vector" ratio="10" rot="R90">LCD/KBD</text>
 <text x="57.9628" y="21.6408" size="1.27" layer="27" font="vector" ratio="10" rot="R90">Serial</text>
 <text x="57.4929" y="15.3543" size="1.27" layer="28" font="vector" ratio="10" rot="MR270">D0</text>
