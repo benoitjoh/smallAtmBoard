@@ -2338,7 +2338,7 @@ DIN A3, landscape with extra doc field</description>
 </instance>
 <instance part="IC2" gate="G$1" x="210.82" y="218.44" rot="MR0"/>
 <instance part="GND9" gate="1" x="180.34" y="195.58"/>
-<instance part="R22" gate="G$1" x="256.54" y="81.28" rot="R90"/>
+<instance part="R22" gate="G$1" x="256.54" y="99.06" rot="R90"/>
 <instance part="R23" gate="G$1" x="266.7" y="99.06" rot="R90"/>
 <instance part="SV3" gate="G$1" x="137.16" y="142.24" rot="R270"/>
 <instance part="CON6" gate="G$1" x="355.6" y="88.9" rot="R90"/>
@@ -2502,7 +2502,7 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="266.7" y1="104.14" x2="266.7" y2="109.22" width="0.1524" layer="91"/>
 <junction x="266.7" y="109.22"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="86.36" x2="256.54" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="104.14" x2="256.54" y2="109.22" width="0.1524" layer="91"/>
 <junction x="256.54" y="109.22"/>
 </segment>
 </net>
@@ -2589,10 +2589,10 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="144.78" y1="134.62" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="238.76" y="73.66" size="1.778" layer="95"/>
-<wire x1="256.54" y1="71.12" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
+<label x="231.14" y="88.9" size="1.778" layer="95"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="76.2" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="88.9" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="93.98" x2="256.54" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AT-A3" class="0">
@@ -2672,9 +2672,10 @@ DIN A3, landscape with extra doc field</description>
 <label x="124.46" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="8"/>
-<wire x1="195.58" y1="134.62" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
-<label x="195.58" y="119.38" size="1.778" layer="95" rot="R90"/>
+<label x="190.5" y="121.92" size="1.778" layer="95" rot="R90"/>
+<wire x1="190.5" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="G$1" pin="6"/>
+<wire x1="190.5" y1="99.06" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AT-PD8" class="0">
@@ -2713,9 +2714,10 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="121.92" y1="43.18" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="6"/>
-<wire x1="190.5" y1="134.62" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
-<label x="190.5" y="114.3" size="1.778" layer="95" rot="R90"/>
+<label x="195.58" y="111.76" size="1.778" layer="95" rot="R90"/>
+<wire x1="195.58" y1="104.14" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="G$1" pin="8"/>
+<wire x1="195.58" y1="104.14" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AT-PD11" class="0">
@@ -2727,8 +2729,9 @@ DIN A3, landscape with extra doc field</description>
 </segment>
 <segment>
 <pinref part="SV2" gate="G$1" pin="7"/>
-<wire x1="193.04" y1="134.62" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="134.62" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
 <label x="193.04" y="116.84" size="1.778" layer="95" rot="R90"/>
+<wire x1="193.04" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2748,9 +2751,9 @@ DIN A3, landscape with extra doc field</description>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="93.98" x2="266.7" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
-<label x="236.22" y="93.98" size="1.778" layer="95"/>
+<wire x1="266.7" y1="93.98" x2="266.7" y2="68.58" width="0.1524" layer="91"/>
+<label x="233.68" y="68.58" size="1.778" layer="95"/>
+<wire x1="266.7" y1="68.58" x2="233.68" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AT-A2" class="0">
